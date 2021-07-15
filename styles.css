@@ -3,17 +3,26 @@ body {
     color: #606C38;
     font-family: 'Source Serif Pro', serif;
 }
+p {
+    text-align: center;    
+}
+div.navigation {
+    display: block;    
+}
+#navLinks {
+    display: none;
+}
 h1 {
     color: #BC6C25;
     text-align: center;
     font-size: 3em;
     text-shadow: -1px 1px 1px #703602;
 }
-p {
-    text-align: center;    
-}
 .menu {
-    display: inline-block;
-    width: 32px;
-    height: 32px;  
+    background: black;
+    position: absolute;
+    left: 4px;
+    top: 4px;
+    width: 50px;
+    height: 50px;  
 }
