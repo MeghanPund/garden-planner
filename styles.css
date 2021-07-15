@@ -12,3 +12,8 @@ h1 {
 p {
     text-align: center;    
 }
+.menu {
+    display: inline-block;
+    width: 32px;
+    height: 32px;  
+}
