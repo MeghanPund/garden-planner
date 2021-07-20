@@ -6,6 +6,13 @@ body {
 p {
     text-align: center;    
 }
+.navigation a {
+    color: #703602;
+    text-decoration: none;
+    padding: 5px 5px;
+    display: block;
+    font-size: 2em;
+}
 .navigation #navLinks {
     display: none;
 }
@@ -14,6 +21,7 @@ h1 {
     text-align: center;
     font-size: 3em;
     text-shadow: -1px 1px 1px #703602;
+    padding-top: .6em;
 }
 .menu {
     background: black;
