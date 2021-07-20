@@ -29,10 +29,14 @@ h1 {
     left: 4px;
     top: 4px;
     width: 50px;
-    height: 50px;  
+    height: 50px;
+    border: 1px solid #BC6C25;  
 }
 .vegetable {
     max-width: 100px;
     display: inline-block;
 
+}
+#contact {
+    color: #606C38;
 }
