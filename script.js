@@ -17,3 +17,13 @@ function getEmail() {
 
     document.getElementById('email').value = '';
 }
+
+// Function to show/hide hamburger menu on click!
+function showNav() {
+    const navIcon = document.getElementById("navLinks");
+    if (navIcon.style.display === "block") {
+        navIcon.style.display = "none";
+      } else {
+        navIcon.style.display = "block";
+      }
+}

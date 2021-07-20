@@ -6,9 +6,6 @@ body {
 p {
     text-align: center;    
 }
-div.navigation {
-    display: block;    
-}
 .navigation #navLinks {
     display: none;
 }
