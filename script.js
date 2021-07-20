@@ -2,6 +2,7 @@
 function getName() {
     const userName = document.getElementById('name').value;
     document.getElementById("helloUser").innerHTML = `Hello, ${userName}! Welcome to Garden Planner.`;
+    document.getElementById('name').value = '';
     }
 
 // Function to get the email input from the HTML form, make sure it has an "@" and a ".", and alert user that email has been accepted
@@ -13,4 +14,6 @@ function getEmail() {
     } else {
         alert("Something appears to be wrong with the name you have entered. Please double-check your entry.");
     }
+
+    document.getElementById('email').value = '';
 }
