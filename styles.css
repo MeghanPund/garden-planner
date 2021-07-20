@@ -9,7 +9,7 @@ p {
 div.navigation {
     display: block;    
 }
-#navLinks .burgerLinks {
+.navigation #navLinks {
     display: none;
 }
 h1 {
