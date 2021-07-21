@@ -4,13 +4,6 @@ body {
     font-family: 'Source Serif Pro', serif;
     text-align: center;
 }
-
-/* hover is not functioning correctly 
-div.burgerLinks > a:hover {
-    color: #283618;
-    background-color: #FEFAE0;
-    transition: color .3s;
-} */
 .navigation #navLinks {
     display: none;
 }
@@ -28,6 +21,11 @@ div.burgerLinks > a {
 }
 a:nth-child(1) {
     margin-top: 1.85em;
+}
+div.burgerLinks > a:hover {
+    color: #283618;
+    background-color: #FEFAE0;
+    transition: color .3s, background-color .4s;
 }
 h1 {
     color: #BC6C25;
