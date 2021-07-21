@@ -4,10 +4,13 @@ body {
     font-family: 'Source Serif Pro', serif;
     text-align: center;
 }
-a:hover {
-    color: #606C38;
+
+/* hover is not functioning correctly 
+div.burgerLinks > a:hover {
+    color: #283618;
+    background-color: #FEFAE0;
     transition: color .3s;
-}
+} */
 .navigation #navLinks {
     display: none;
 }
