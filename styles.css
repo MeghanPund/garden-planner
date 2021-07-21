@@ -4,6 +4,10 @@ body {
     font-family: 'Source Serif Pro', serif;
     text-align: center;
 }
+a:hover {
+    color: #606C38;
+    transition: color .3s;
+}
 .navigation a {
     color: #703602;
     text-decoration: none;
@@ -12,33 +16,38 @@ body {
     display: block;
     font-size: 2em;
 }
-a:hover {
-    background-color: #FEFAE0;
-}
 .navigation #navLinks {
     display: none;
 }
+div.burgerLinks > a {
+    border: .5px solid #606C38;
+    margin-bottom: 2px;
+    padding: 2px;
+    border-radius: 11px;
+    background-color: #703602;
+    color: #FEFAE0;
+}
 a:nth-child(1) {
-    padding-top: 1.5em;
+    margin-top: 1.85em;
 }
 h1 {
     color: #BC6C25;
-    text-align: center;
     font-size: 3em;
     text-shadow: -1px 1px 1px #703602;
-    padding-top: .6em;
 }
 h2 {
-    border: 1px solid #FEFAE0;
+    margin-block-start: 3em;
+    color: #BC6C25;
+    text-shadow: -.5px .5px .5px #703602;
 }
-.menu {
-    background: black;
+input.menu {
+    border: 1px solid #BC6C25;
+    border-radius: 11px;
     position: absolute;
     left: 4px;
     top: 4px;
     width: 50px;
     height: 50px;
-    border: 1px solid #BC6C25;
 }
 .vegetable {
     max-width: 100px;
@@ -46,5 +55,23 @@ h2 {
 
 }
 .emailLink {
-    color: #606C38;
+    color: #283618;
+}
+label {
+    color: #283618;
+}
+.phoneNum {
+    text-decoration: none;
+    color: #283618;
+}
+form > input {
+    padding: 4px;
+    border-radius: 8px;
+    border: .5px solid #BC6C25;
+}
+:focus {
+    border: 3px solid #703602;
+}
+button {
+    margin: 4px;
 }

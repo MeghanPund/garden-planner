@@ -1,3 +1,13 @@
+// Function to show/hide hamburger menu on click!
+function showNav() {
+    const navIcon = document.getElementById("navLinks");
+    if (navIcon.style.display === "block") {
+        navIcon.style.display = "none";
+      } else {
+        navIcon.style.display = "block";
+      }
+}
+
 // Function to get the name input from the HTML form and display it at the top of the page
 function getName() {
     const userName = document.getElementById('name').value;
@@ -12,18 +22,8 @@ function getEmail() {
     if (userEmail.includes("@") && userEmail.includes(".")) {
         alert(`Thanks, ${userEmail}!`);
     } else {
-        alert("Something appears to be wrong with the name you have entered. Please double-check your entry.");
+        alert("Something appears to be wrong with the email you have entered. Please double-check your entry.");
     }
 
     document.getElementById('email').value = '';
-}
-
-// Function to show/hide hamburger menu on click!
-function showNav() {
-    const navIcon = document.getElementById("navLinks");
-    if (navIcon.style.display === "block") {
-        navIcon.style.display = "none";
-      } else {
-        navIcon.style.display = "block";
-      }
 }
