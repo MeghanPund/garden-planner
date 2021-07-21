@@ -8,24 +8,20 @@ a:hover {
     color: #606C38;
     transition: color .3s;
 }
-.navigation a {
-    color: #703602;
-    text-decoration: none;
-    text-align: left;
-    padding: 5px 5px;
-    display: block;
-    font-size: 2em;
-}
 .navigation #navLinks {
     display: none;
 }
 div.burgerLinks > a {
-    border: .5px solid #606C38;
+    border: 1px solid #703602;
     margin-bottom: 2px;
-    padding: 2px;
+    padding: 2px 0 2px 8px;
     border-radius: 11px;
-    background-color: #703602;
-    color: #FEFAE0;
+    background-color: #606C38;
+    color: white;
+    text-decoration: none;
+    text-align: left;
+    display: block;
+    font-size: 2em;
 }
 a:nth-child(1) {
     margin-top: 1.85em;
@@ -73,5 +69,7 @@ form > input {
     border: 3px solid #703602;
 }
 button {
+    background-color: #606C38;
+    color: white;
     margin: 4px;
 }
