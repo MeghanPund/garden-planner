@@ -12,6 +12,7 @@ function showNav() {
 // Function to get the name input from the HTML form and display it at the top of the page
 function getName() {
     const userName = document.getElementById('name').value;
+
     if (userName !== "" && userName !== " ") {
     document.getElementById("helloUser").innerHTML = `Hello, ${userName}! Welcome to Garden Planner.`;
     document.getElementById('name').value = '';}
