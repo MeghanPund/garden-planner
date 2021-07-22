@@ -34,6 +34,11 @@ div.burgerLinks > a {
     display: block;
     font-size: 2em;
 }
+div.burgerLinks > a:nth-child(even) {
+    border: 1px solid #7e8663;
+    background-color: #703602;
+    color: white;
+}
 a:nth-child(1) {
     margin-top: 1.85em;
 }
