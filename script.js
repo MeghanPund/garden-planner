@@ -28,20 +28,3 @@ function getEmail() {
 
     document.getElementById('email').value = '';
 }
-
-// Function to allow draggable vegetable image to be dropped
-function allowDrop(e) {
-    e.preventDefault();
-}
-
-//Function that tells data what to do when dragging begins
-function dragStart(e) {
-    e.dataTransfer.setData("text", e.target.id);
-}
-
-//Function that 
-function dragDrop(e) {
-    e.preventDefault();
-    let data = e.dataTransfer.getData("text");
-    e.target.appendChild(document.getElementById(data));
-}
