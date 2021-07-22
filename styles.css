@@ -62,19 +62,22 @@ h2 {
 /* drag and drop divs */
 .gardenDropBox {
     cursor: url('images/trowel_cursor.png'), auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: baseline;
     border: 3px solid #606C38;
     min-width: 300px;
-    height: 300px;
-    margin: auto;
+    min-height: 500px;
 }
 .gardenDropBox:last-of-type {
     border: #606C38;
     background-color: #703602;
-    min-height: 500px;
 }
 .vegetable {
-    width: 100px;
-    display: inline-block;
+    max-width: 100px;
+    flex-grow: 1;
+    flex-shrink: 1;
 }
 /* form */
 form > input {
@@ -128,16 +131,15 @@ label {
     }
 }
 @media only screen and (min-width: 1025px) {
+    body {
+        max-width: 1024px;
+        margin: auto;
+    }
     input.menu {
         width: 75px;
         height: 75px;
     }
     div.burgerLinks > a {
-        display: inline;
-        margin-bottom: 0px;
-        padding: 0 4px;
-        border-radius: 6px;
-        text-align: center;
         font-size: 2.1em;
     }
     .gardenDropBox {
