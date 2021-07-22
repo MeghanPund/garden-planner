@@ -78,8 +78,8 @@ form > input {
     border-radius: 8px;
     border: .5px solid #BC6C25;
 }
-:focus {
-    border: 3px solid #703602;
+input:focus {
+    border: 4px solid #703602;
 }
 button {
     background-color: #606C38;
@@ -134,8 +134,9 @@ label {
         text-align: center;
         font-size: 2.1em;
     }
-    body {
-        font-size: "";
+    .gardenContainer {
+        display: flex;
+        align-items: stretch;
     }
     /* h2#about,
         h2#gardenClub {

@@ -29,6 +29,7 @@ function getEmail() {
     document.getElementById('email').value = '';
 }
 
+// Drag and drop begins here 
 
 let dragged;
 
