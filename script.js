@@ -1,3 +1,4 @@
+// WORKING ON THIS PROJECT AS OF 7/22
 // Function to show/hide hamburger menu on click!
 function showNav() {
     const navIcon = document.getElementById("navLinks");
