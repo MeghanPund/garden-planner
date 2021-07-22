@@ -2,11 +2,11 @@
 A simple site for the planning and organization of a garden. The drag and drop pictures of plants allow users to visualize and organize their future garden and the option to join the Garden Club makes users feel like part of a community. In partial fulfillment of the Code Louisville May 2021 Front End Wed Development class.
 
 Media Query funtionality:
-In mobile layout, my nav menu shows large buttons, oriented in a vertical style (easier to click with thumbs) and on a tablet or larger, my nav menu buttons orient horizontally across the top of the screen.
+In mobile layout, my nav menu shows large buttons, oriented in a vertical style (easier to click with thumbs) and on a tablet or larger, my nav menu buttons orient horizontally across the top of the screen. My garden drag and drop boxes flip from a vertical layout on small screens to a two-column layout for screens > 1024px.
 
 Included CSS Features: 
 1) A navigation menu that expands and collapses properly at desktop and mobile sizes, such as by switching between vertical and horizontal styles, AND is opened and closed by clicking the “hamburger” icon, here displayed as an image of three parallel horizontal lines.
-2) Use Flexbox to organize content areas based on mobile or desktop views. I used Flexbox in my media query for screens > 1024px to reorient the garden planner from a single vertical stack into two side-by-side collumns.
+2) Use Flexbox to organize content areas based on mobile or desktop views. I used Flexbox in my media query for screens > 1024px to reorient the garden planner from a single vertical stack into two side-by-side columns.
 3) Use “:nth-child” to style a series of elements on your page. I made the nav links within the hamburger menu alternate colors.
 
 Included JavaScript Features:
