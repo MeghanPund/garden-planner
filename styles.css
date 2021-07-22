@@ -146,10 +146,4 @@ label {
         display: flex;
         align-items: stretch;
     }
-    /* h2#about,
-        h2#gardenClub {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-        } */
 }
