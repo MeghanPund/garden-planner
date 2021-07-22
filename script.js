@@ -57,7 +57,7 @@ document.addEventListener("dragover", function(event) {
 
 document.addEventListener("dragenter", function(event) {
   // highlight potential drop target when the draggable element enters it
-  if (event.target.className == "dropzone") {
+  if (event.target.className == "gardenDropBox") {
     event.target.style.background = "red";
   }
 
@@ -65,7 +65,7 @@ document.addEventListener("dragenter", function(event) {
 
 document.addEventListener("dragleave", function(event) {
   // reset background of potential drop target when the draggable element leaves it
-  if (event.target.className == "dropzone") {
+  if (event.target.className == "gardenDropBox") {
     event.target.style.background = "";
   }
 
@@ -75,7 +75,7 @@ document.addEventListener("drop", function(event) {
   // prevent default action (open as link for some elements)
   event.preventDefault();
   // move dragged elem to the selected drop target
-  if (event.target.className == "dropzone") {
+  if (event.target.className == "gardenDropBox") {
     event.target.style.background = "";
     dragged.parentNode.removeChild( dragged );
     event.target.appendChild( dragged );
