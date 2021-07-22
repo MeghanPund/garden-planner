@@ -3,6 +3,10 @@ body {
     color: #606C38;
     font-family: 'Source Serif Pro', serif;
     text-align: center;
+    font-size: 1.4em;
+}
+p {
+    font-size: 18px;
 }
 .navigation #navLinks {
     display: none;
@@ -34,15 +38,20 @@ h1 {
 }
 /* drag and drop divs */
 .gardenDropBox {
-    border: 3px solid silver;
-    width: 300px;
+    border: 3px solid #606C38;
+    min-width: 300px;
     height: 300px;
     margin: auto;
 }
 .gardenDropBox:last-of-type {
     border: #606C38;
     background-color: #703602;
-    height: 600px;
+    min-height: 500px;
+}
+.vegetable {
+    width: 100px;
+    display: inline-block;
+    cursor: url('images/trowel_cursor.png'), auto;
 }
 h2 {
     margin-block-start: 3em;
@@ -59,22 +68,22 @@ input.menu {
     width: 50px;
     height: 50px;
 }
-.vegetable {
-    width: 100px;
-    display: inline-block;
-}
 .emailLink {
     color: #283618;
 }
 label {
+    font-size: 18px;
     color: #283618;
 }
 .phoneNum {
     text-decoration: none;
     color: #283618;
+    font-size: 18px;
 }
 form > input {
-    padding: 4px;
+    display: block;
+    margin: auto;
+    padding: 8px;
     border-radius: 8px;
     border: .5px solid #BC6C25;
 }
@@ -84,9 +93,11 @@ form > input {
 button {
     background-color: #606C38;
     font-family: 'Source Serif Pro', serif;
+    font-size: 16px;
     color: white;
     margin: 4px;
     border-radius: 6px;
+    padding: 8px;
 }
 @media screen and (min-width: 769px) {
     input.menu {
@@ -117,6 +128,9 @@ button {
         border-radius: 6px;
         text-align: center;
         font-size: 2.1em;
+    }
+    body {
+        font-size: "";
     }
     /* h2#about,
         h2#gardenClub {
