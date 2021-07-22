@@ -38,6 +38,7 @@ h1 {
 }
 /* drag and drop divs */
 .gardenDropBox {
+    cursor: url('images/trowel_cursor.png'), auto;
     border: 3px solid #606C38;
     min-width: 300px;
     height: 300px;
@@ -51,7 +52,6 @@ h1 {
 .vegetable {
     width: 100px;
     display: inline-block;
-    cursor: url('images/trowel_cursor.png'), auto;
 }
 h2 {
     margin-block-start: 3em;
