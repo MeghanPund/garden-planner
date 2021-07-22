@@ -8,6 +8,6 @@ Included CSS Features:
 1) A navigation menu that expands and collapses properly at desktop and mobile sizes, such as by switching between vertical and horizontal styles, AND is opened and closed by clicking the “hamburger” icon, here displayed as an image of three parallel horizontal lines.
 
 Included JavaScript Features:
-1) Create a form and validate at least one field. I created a form to join the Garden Club and used JS to capture the input for an email field and a name field, check to see if the email contained "@" and "." (and throw an error message if it does not), and to disallow the entry of an empty field for a name. I also used JS to wipe the input fields clear after submission.
+1) Create a form and validate at least one field. I created a form to join the Garden Club and used JS to capture the input for an email field and a name field, check to see if the email contained "@" and "." (and throw an error message if it does not), to disallow the entry of an empty field for a name, and to display the inputted name in a welcome message at the top of the page. I also used JS to wipe the input fields clear after submission.
 2) Show/hide one or more content areas on your site through clicking a button. I used JS to show/hide my navigation menu.
 3) Allow the user to rearrange or move items by clicking and dragging an element on your site. My plant pictures may be drag and dropped into the garden and organized at the user's leisure.
