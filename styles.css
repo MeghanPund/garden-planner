@@ -78,7 +78,7 @@ form > input {
     border-radius: 8px;
     border: .5px solid #BC6C25;
 }
-input:focus {
+form > input:focus {
     border: 4px solid #703602;
 }
 button {
@@ -133,6 +133,9 @@ label {
         border-radius: 6px;
         text-align: center;
         font-size: 2.1em;
+    }
+    .gardenDropBox {
+        margin: 5%;
     }
     .gardenContainer {
         display: flex;
