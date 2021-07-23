@@ -43,13 +43,13 @@ document.addEventListener("drag", function(event) {
 document.addEventListener("dragstart", function(event) {
   // store a ref. on the dragged elem
   dragged = event.target;
-  // make it half transparent
-  event.target.style.opacity = .5;
+
+  dragged.style.opacity = .5;
 }, false);
 
 document.addEventListener("dragend", function(event) {
-  // reset the transparency
-  event.target.style.opacity = "";
+
+  dragged.style.opacity = "";
 }, false);
 
 /* events fired on the drop targets */
@@ -61,7 +61,7 @@ document.addEventListener("dragover", function(event) {
 document.addEventListener("dragenter", function(event) {
   // highlight potential drop target when the draggable element enters it
   if (event.target.className == "gardenDropBox") {
-    event.target.style.background = "red";
+    event.target.style.background = "green";
   }
 
 }, false);
@@ -84,3 +84,6 @@ document.addEventListener("drop", function(event) {
     event.target.appendChild( dragged );
   }
 }, false);
+
+// Snapping begins here
+
