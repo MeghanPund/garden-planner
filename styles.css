@@ -69,11 +69,13 @@ h2 {
     grid-template-columns: auto auto auto auto auto auto;
     grid-template-rows: auto;
     border: 3px solid #606C38;
+    width: 600px;
+    height: 600px; 
 }
 /* #greenhouse {
     width: 600px;
-    height: 600px; */
-}
+    height: 600px;
+} */
 .gardenDropBox:last-of-type {
     background-color: #703602;
 }
