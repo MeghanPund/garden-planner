@@ -88,7 +88,7 @@ document.addEventListener("drop", function(event) {
 // Snapping begins here. I created a bunch of div elements within the garden div, and each div can hold one vegetable.
 
 document.addEventListener('DOMContentLoaded', function() {
-  for (let i = 0; i < 50; i++) {
+  for (let i = 0; i < 5; i++) {
   var div = document.createElement('div');
   div.id = 'container';
   div.className = 'gardenDropBox';
