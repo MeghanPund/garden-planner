@@ -133,6 +133,9 @@ label {
         display: inline-flex;
         align-items: stretch;
     }
+    .gardenDropBox {
+        margin: 15px;
+    }
 }
 @media only screen and (min-width: 1025px) {
     body {
