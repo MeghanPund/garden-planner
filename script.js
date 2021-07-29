@@ -32,7 +32,7 @@ function getEmail() {
 
 // Drag and drop begins here 
 
-let dragged;
+let dragon;
 
 // event listener for dragging target
 document.addEventListener("drag", function(event) {
@@ -41,14 +41,14 @@ document.addEventListener("drag", function(event) {
 
 document.addEventListener("dragstart", function(event) {
   // store info for element being dragged
-  dragged = event.target;
-  // change opacity of element while it's dragged
-  dragged.style.opacity = .5;
+  dragon = event.target;
+  // change opacity of vegetable while dragged
+  dragon.style.opacity = .5;
 }, false);
 
 document.addEventListener("dragend", function(event) {
-  // return opacity to normal after dragging
-  dragged.style.opacity = "";
+  // return vegetable to normal after dragging
+  dragon.style.opacity = "";
 }, false);
 
 // events fired on the drop targets
@@ -74,12 +74,11 @@ document.addEventListener("dragleave", function(event) {
 }, false);
 
 document.addEventListener("drop", function(event) {
-  // prevent default action (open as link for some elements)
+  // prevent default action
   event.preventDefault();
   // move dragged elem to the selected drop target
   if (event.target.className == "gardenDropBox") {
     event.target.style.background = "";
-    dragged.parentNode.removeChild( dragged );
-    event.target.appendChild( dragged );
+    event.target.appendChild( dragon );
   }
 }, false);
