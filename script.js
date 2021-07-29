@@ -1,4 +1,3 @@
-// WORKING ON THIS PROJECT AS OF 7/22
 // Function to show/hide hamburger menu on click!
 function showNav() {
     const navIcon = document.getElementById("navLinks");
@@ -35,20 +34,20 @@ function getEmail() {
 
 let dragged;
 
-/* events fired on the draggable target */
+/* event listener for dragging target */
 document.addEventListener("drag", function(event) {
 
 }, false);
 
 document.addEventListener("dragstart", function(event) {
-  // store a ref. on the dragged elem
+  // store info for element being dragged
   dragged = event.target;
-
+  // change opacity of element while it's dragged
   dragged.style.opacity = .5;
 }, false);
 
 document.addEventListener("dragend", function(event) {
-
+  // return opacity to normal after dragging
   dragged.style.opacity = "";
 }, false);
 
@@ -85,7 +84,7 @@ document.addEventListener("drop", function(event) {
   }
 }, false);
 
-// Snapping begins here. I created a bunch of div elements within the garden div, and each div can hold one vegetable.
+// Trying to snap
 
 document.addEventListener('DOMContentLoaded', function() {
   for (let i = 0; i < 5; i++) {
