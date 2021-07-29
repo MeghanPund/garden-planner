@@ -1,4 +1,4 @@
-// Function to show/hide hamburger menu on click!
+// show/hide hamburger menu on click!
 function showNav() {
     const navIcon = document.getElementById("navLinks");
     if (navIcon.style.display === "block") {
@@ -8,7 +8,7 @@ function showNav() {
       }
 }
 
-// Function to get the name input from the HTML form and display it at the top of the page
+// get the name input from the HTML form and display it at the top of the page
 function getName() {
     const userName = document.getElementById('name').value;
 
@@ -17,7 +17,7 @@ function getName() {
     document.getElementById('name').value = '';}
     }
 
-// Function to get the email input from the HTML form, make sure it has an "@" and a ".", and alert user that email has been accepted
+// get the email input from the HTML form, make sure it has an "@" and a ".", and alert user that email has been accepted
 function getEmail() {
     const userEmail = document.getElementById('email').value;
         
@@ -34,7 +34,7 @@ function getEmail() {
 
 let dragged;
 
-/* event listener for dragging target */
+// event listener for dragging target
 document.addEventListener("drag", function(event) {
 
 }, false);
@@ -51,7 +51,7 @@ document.addEventListener("dragend", function(event) {
   dragged.style.opacity = "";
 }, false);
 
-/* events fired on the drop targets */
+// events fired on the drop targets
 document.addEventListener("dragover", function(event) {
   // prevent default to allow drop
   event.preventDefault();
