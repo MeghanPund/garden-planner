@@ -59,6 +59,9 @@ h2 {
     text-shadow: -.5px .5px .5px #703602;
 }
 /* drag and drop divs */
+/* .gardenContainer div {
+    margin: 0 auto;
+} */
 .gardenDropBox {
     cursor: url('images/trowel_cursor.png'), auto;
     display: grid;
