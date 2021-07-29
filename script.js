@@ -34,11 +34,6 @@ function getEmail() {
 
 let dragon;
 
-// event listener for dragging target
-document.addEventListener("drag", function(event) {
-
-}, false);
-
 document.addEventListener("dragstart", function(event) {
   // store info for element being dragged
   dragon = event.target;
