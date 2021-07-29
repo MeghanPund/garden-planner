@@ -83,16 +83,3 @@ document.addEventListener("drop", function(event) {
     event.target.appendChild( dragged );
   }
 }, false);
-
-// Trying to snap
-
-document.addEventListener('DOMContentLoaded', function() {
-  for (let i = 0; i < 5; i++) {
-  var div = document.createElement('div');
-  div.id = 'container';
-  div.className = 'gardenDropBox';
-  let mamaDiv = document.getElementById('garden').parentNode;
-  let child = document.getElementById('garden');
-  mamaDiv.insertAdjacentElement('beforeend', child);
-  }
-}, false);
